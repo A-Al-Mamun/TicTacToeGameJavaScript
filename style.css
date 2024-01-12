@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #272727;
+    
+}
+.game-container{
+    margin: auto;
+    width: 60vmin;
+    height: 60vmin;
+    text-align: center;
+}
+
+.game-container h1{
+    color: #fff;
+}
+.game{
+    width: 60vmin;
+    height: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.box{
+    width: 18vmin;
+    height: 15vmin;
+    box-shadow: 0 0 1rem #ffffff50;
+    font-size: 2rem;
+}
+
+#reset-btn{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
