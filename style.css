@@ -7,6 +7,16 @@ body{
     background: #272727;
     
 }
+.hide{
+    display: none;
+}
+.result{
+    margin: auto;
+}
+.winner-show{
+    color: #fff;
+    font-size: 2rem;
+}
 .game-container{
     margin: auto;
     width: 60vmin;
@@ -33,6 +43,7 @@ body{
     height: 15vmin;
     box-shadow: 0 0 1rem #ffffff50;
     font-size: 2rem;
+    background: #fff;
 }
 
 #reset-btn{
